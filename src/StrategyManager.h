@@ -1,22 +1,8 @@
-#ifndef OBFS_STRATEGYMANAGER_H
-#define OBFS_STRATEGYMANAGER_H
-
-#include "stdafx.h"
-#include "ResourceManager.h"
-
-class StrategyManager {
-protected:
-	ResourceManager &resMgr;
-	
+#pragma once
+class StrategyManager
+{
 public:
-	StrategyManager(ResourceManager &RM)
-		: resMgr(RM)
-	{}
-
-	~StrategyManager(){}
-
-	ErrCode execute();
-
+	StrategyManager();
+	~StrategyManager();
 };
 
-#endif
