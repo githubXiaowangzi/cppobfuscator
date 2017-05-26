@@ -11,4 +11,3 @@ OPTION("scope-include-flag", required_argument, 0, ScopeIncludeFlag, 0, 0)
 OPTION("scope-exclude-flag", required_argument, 0, ScopeExcludeFlag, 0, 0)
 OPTION("obfs", required_argument, 0, CustomObfsArg, 0, 0)
 OPTION("Xclang", required_argument, 0, CustomClangArg, 0, 0)
-

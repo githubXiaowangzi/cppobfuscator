@@ -1,12 +1,7 @@
 #include "StrategyManager.h"
+#include "alg/Algorithm.h"
 
-
-
-StrategyManager::StrategyManager()
+ErrCode StrategyManager::execute()
 {
-}
-
-
-StrategyManager::~StrategyManager()
-{
+	return ErrCode();
 }

@@ -20,7 +20,7 @@ protected:
 	std::unique_ptr<CompilerInstance> compInst;
 	std::unique_ptr<Rewriter> rw;
 	std::unique_ptr<OptionTable> optTable;
-
+	
 	DeclGroupRefVec decls;
 public:
 	ResourceManager() { }
@@ -39,7 +39,7 @@ public:
 	
 	void rewriteToFile();
 	
-	bool prettyPrint(llvm::raw_ostream& out);
+	bool prettyPrint(/*llvm::raw_ostream& out*/);
 
 	DeclGroupRef& updateAndGetDeclGroupRef();
 
