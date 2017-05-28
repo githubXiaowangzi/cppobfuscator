@@ -16,6 +16,7 @@ typedef SmallVector<Decl *, 32> DeclPtrSmallVector;
 
 class Algorithm
 {
+protected:
 	static int32_t instCounter;
 	int32_t uid;
 	ResourceManager& resMgr;
