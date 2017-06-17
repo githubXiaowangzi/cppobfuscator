@@ -61,6 +61,6 @@ protected:
 	bool InnerJumpToGoto(const Stmt *stRoot, LabelStmt *stLblContinue, LabelStmt *stLblBreak);
 
 	//update stmtMap.pInEdge of children of S
-	bool updateChildrenInEdg(Stmt *S);
+	bool updateChildrenInEdge(Stmt *S);
 
 };
